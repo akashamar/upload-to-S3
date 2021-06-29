@@ -3,7 +3,7 @@ const fs = require('fs')
 const util = require('util')
 const multer = require('multer')
 const cors = require('cors');
-// const { uploadFile, getFileStream } = require('./awsdkS3.js') //manual upload to s3
+// const { uploadFile, getFileStream } = require('./awsdkS3.js')  //manual upload to s3
 const multerS3 = require('multer-s3');
 const S3 = require('aws-sdk/clients/s3')
 require('dotenv').config()
